@@ -1,5 +1,5 @@
 * {
-  font-family: Impact, serif;
+  font-family: sans-serif;
   letter-spacing: 2px;
 }
 .wrapper {
@@ -11,6 +11,7 @@
   align-items: center;
   gap: 12px;
 }
+
 .btn {
   border: none;
   border-radius: 10px;

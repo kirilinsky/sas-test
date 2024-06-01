@@ -78,11 +78,5 @@ document.addEventListener("DOMContentLoaded", function () {
   logoutButton.addEventListener("click", logout);
 
   // init the session on load
-  chrome.identity.getProfileUserInfo({ accountStatus: "ANY" }, (userInfo) => {
-    if (userInfo.email) {
-      renderUser(userInfo);
-    } else {
-      renderAnon();
-    }
-  });
+  initSession();
 });
